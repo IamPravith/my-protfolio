@@ -1,5 +1,5 @@
 "use client";
-import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaArrowDown, FaRocket, FaBrain, FaCode, FaDownload, FaAward, FaGraduationCap, FaBriefcase } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaArrowDown, FaRocket, FaBrain, FaCode, FaAward, FaGraduationCap } from "react-icons/fa";
 import { SiPython, SiTensorflow, SiPytorch, SiReact, SiTypescript, SiDotnet, SiFlask, SiMysql, SiGit, SiDocker, SiKubernetes, SiAmazon } from "react-icons/si";
 import { useEffect, useState } from "react";
 
@@ -267,7 +267,7 @@ export default function Home() {
             {/* Advanced Typing Effect */}
             <div className="mb-8">
               <h1 className="text-7xl md:text-9xl font-black text-white mb-6 animate-fade-in">
-                Hi, I'm{" "}
+                Hi, I&apos;m{" "}
                 <span className="animate-gradient-text-neon relative">
                   Vinay
                   <div className="absolute inset-0 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 blur-lg opacity-50 animate-pulse"></div>
@@ -398,7 +398,7 @@ export default function Home() {
                   with a passion for building accessible AI experiences.
                 </p>
                 <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
-                  Currently pursuing M.Sc. in Information Technology with a CGPA of 9.09, I've been actively 
+                  Currently pursuing M.Sc. in Information Technology with a CGPA of 9.09, I&apos;ve been actively 
                   involved in research, teaching, and building practical AI solutions that solve real-world problems.
                 </p>
               </div>
@@ -762,7 +762,7 @@ export default function Home() {
                 icon: FaRocket,
                 gradient: "from-purple-500 to-pink-500"
               }
-            ].map((project, index) => (
+            ].map((project) => (
               <div 
                 key={project.title}
                 className="bg-white dark:bg-slate-900 rounded-xl overflow-hidden shadow-lg hover-lift group"
@@ -825,7 +825,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div className="glass-card p-8 animate-slide-in-left">
               <FaEnvelope className="text-blue-600 text-3xl mx-auto mb-4" />
-              <h3 className="font-semibold text-slate-900 dark:text-white mb-2"></h3>
+              <h3 className="font-semibold text-slate-900 dark:text-white mb-2">Email</h3>
               <a href="mailto:gupta.vinayC@gmail.com" className="text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                 gupta.vinayC@gmail.com
               </a>
@@ -833,7 +833,7 @@ export default function Home() {
             
             <div className="glass-card p-8 animate-slide-in-right">
               <FaPhone className="text-green-600 text-3xl mx-auto mb-4" />
-              <h3 className="font-semibold text-slate-900 dark:text-white mb-2"></h3>
+              <h3 className="font-semibold text-slate-900 dark:text-white mb-2">Phone</h3>
               <a href="tel:+917738927663" className="text-slate-600 dark:text-slate-300 hover:text-green-600 dark:hover:text-green-400 transition-colors">
                 +91-7738927663
               </a>
@@ -848,6 +848,7 @@ export default function Home() {
               className="flex items-center gap-3 px-8 py-4 bg-slate-900 dark:bg-white text-white dark:text-slate-900 rounded-full hover:bg-slate-800 dark:hover:bg-slate-100 transition-all duration-300 hover:scale-105 hover:shadow-lg hover-glow animate-slide-up"
             >
               <FaGithub size={24} />
+              GitHub
         </a>
         <a
               href="https://linkedin.com/in/guptavinayc"
