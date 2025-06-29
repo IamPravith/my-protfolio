@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
 import { FaRobot, FaPaperPlane, FaTimes } from 'react-icons/fa';
 import qaData from './bot-qa.json';
+import { ReactNode, PropsWithChildren } from 'react';
 
 // Q&A pairs loaded from JSON
 const QA: { keywords: string[]; answer: string }[] = qaData;
@@ -23,23 +24,23 @@ function fuzzyMatch(input: string) {
 }
 
 const markdownComponents = {
-  ul: ({ children }: any) => (
-    <ul className="list-disc pl-5 space-y-0.5 mb-1 last:mb-0">{children}</ul>
+  ul: (props: PropsWithChildren<{}>) => (
+    <ul className="list-disc pl-5 space-y-0.5 mb-1 last:mb-0">{props.children}</ul>
   ),
-  ol: ({ children }: any) => (
-    <ol className="list-decimal pl-5 space-y-0.5 mb-1 last:mb-0">{children}</ol>
+  ol: (props: PropsWithChildren<{}>) => (
+    <ol className="list-decimal pl-5 space-y-0.5 mb-1 last:mb-0">{props.children}</ol>
   ),
-  li: ({ children }: any) => (
-    <li className="ml-1 leading-snug text-base">{children}</li>
+  li: (props: PropsWithChildren<{}>) => (
+    <li className="ml-1 leading-snug text-base">{props.children}</li>
   ),
-  a: ({ href, children }: any) => (
-    <a href={href} target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 underline break-all">{children}</a>
+  a: (props: React.ComponentProps<'a'>) => (
+    <a {...props} className="text-blue-600 dark:text-blue-400 underline break-all">{props.children}</a>
   ),
-  strong: ({ children }: any) => (
-    <strong className="font-semibold text-slate-900 dark:text-white">{children}</strong>
+  strong: (props: PropsWithChildren<{}>) => (
+    <strong className="font-semibold text-slate-900 dark:text-white">{props.children}</strong>
   ),
-  p: ({ children }: any) => (
-    <p className="mb-1 last:mb-0 leading-snug">{children}</p>
+  p: (props: PropsWithChildren<{}>) => (
+    <p className="mb-1 last:mb-0 leading-snug">{props.children}</p>
   ),
 };
 
