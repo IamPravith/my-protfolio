@@ -1,7 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
 import { FaRobot, FaPaperPlane, FaTimes } from 'react-icons/fa';
-import qaData from './bot-qa.json';
 import { PropsWithChildren } from 'react';
 
 const markdownComponents = {

@@ -423,7 +423,7 @@ export default function Home() {
                     accessible AI experiences. 
                   </p>
                   <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
-                    I&apos;ve been actively involved in research, teaching, and building practical AI solutions that solve real-world problems.
+                    I{'\''}ve been actively involved in research, teaching, and building practical AI solutions that solve real-world problems.
                   </p>
                 </div>
                 
