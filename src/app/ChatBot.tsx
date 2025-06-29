@@ -4,9 +4,6 @@ import { FaRobot, FaPaperPlane, FaTimes } from 'react-icons/fa';
 import qaData from './bot-qa.json';
 import { PropsWithChildren } from 'react';
 
-// Q&A pairs loaded from JSON
-const QA: { keywords: string[]; answer: string }[] = qaData;
-
 const markdownComponents = {
   ul: (props: PropsWithChildren<object>) => (
     <ul className="list-disc pl-5 space-y-0.5 mb-1 last:mb-0">{props.children}</ul>
