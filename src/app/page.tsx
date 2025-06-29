@@ -423,7 +423,7 @@ export default function Home() {
                     accessible AI experiences. 
                   </p>
                   <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
-                    I{'\''}ve been actively involved in research, teaching, and building practical AI solutions that solve real-world problems.
+                    I have been actively involved in research, teaching, and building practical AI solutions that solve real-world problems.
                   </p>
                 </div>
                 
@@ -471,7 +471,7 @@ export default function Home() {
                 <div className="glass-card p-6">
                   <h3 className="text-xl font-semibold text-slate-900 dark:text-white mb-4 flex items-center gap-2">
                     Social Links
-                    <span className="ml-2 px-2 py-1 text-xs rounded-full bg-gradient-to-r from-blue-100 to-purple-100 dark:from-blue-900/30 dark:to-purple-900/30 text-blue-700 dark:text-blue-300 font-medium animate-pulse-glow">Let's connect!</span>
+                    <span className="ml-2 px-2 py-1 text-xs rounded-full bg-gradient-to-r from-blue-100 to-purple-100 dark:from-blue-900/30 dark:to-purple-900/30 text-blue-700 dark:text-blue-300 font-medium animate-pulse-glow">Let&apos;s connect!</span>
                   </h3>
                   <div className="flex gap-6 justify-center">
                     {/* GitHub Button */}
@@ -773,7 +773,7 @@ export default function Home() {
                 },
                 {
                   title: "Gardenia Events",
-                  description: "Led Gardenia'23 Innopitch & Gardenia'24 PromptQuest innovation competitions",
+                  description: "Led Gardenia&apos;23 Innopitch & Gardenia&apos;24 PromptQuest innovation competitions",
                   icon: "🎪",
                   color: "from-indigo-500 to-purple-500",
                   participants: "120+ Participants",
@@ -952,7 +952,7 @@ export default function Home() {
             {[
               {
                 title: "NeuroGraph Publication",
-                description: "Co-authored 'Decoding Handwriting with AI' published on Amazon Kindle & Google PlayBook",
+                description: "Co-authored &apos;Decoding Handwriting with AI&apos; published on Amazon Kindle & Google PlayBook",
                 icon: "📚",
                 color: "from-blue-500 to-cyan-500",
                 metric: "200+ Copies Sold",
