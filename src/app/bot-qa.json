@@ -1,0 +1,162 @@
+[
+    {
+      "keywords": ["about", "yourself", "who are you", "summary", "bio", "background", "introduce yourself", "tell me about you", "profile", "overview", "who is Vinay", "personal summary", "about Vinay Gupta", "your story", "professional intro"],
+      "answer": "**I'm Vinay Chhotelal Gupta** — an AI/ML Developer with a strong focus on NLP, GenAI, and end-to-end ML solutions.\n\n**Highlights:**\n- Founder of NeuraX AI, building tools for education and automation\n- Led a team to develop a Sign Language Interpreter System (final year project)\n- Built [AI Diet Assistant](https://github.com/iamrealvinnu/ai-diet-assistant), [TaskFlow Agent](https://github.com/iamrealvinnu/taskflow-agent), and Hand Gesture Recognition\n- Passionate about accessible AI, non-verbal communication, and data visualization\n- See my work on [GitHub](https://github.com/iamrealvinnu)"
+    },
+    {
+      "keywords": ["skills", "technologies", "tech stack", "what can you do", "expertise", "languages", "technical skills", "programming", "tools", "proficiencies", "technical expertise", "what are you good at", "coding skills", "development skills", "your strengths", "software skills"],
+      "answer": "**Technical Skills:**\n\n- **Languages:** Python, TypeScript, C#\n- **Frameworks:** Flask, React, Node.js, .NET\n- **AI/ML:** TensorFlow, PyTorch, OpenCV, CNNs\n- **Data:** Pandas, MySQL, Excel\n- **DevOps:** Docker, Kubernetes, AWS\n- **Other:** WebSocket, REST APIs, Git, Agile, Unit Testing\n\n**Specialties:**\n- LLM-powered solutions\n- Modular architecture\n- Real-time analytics\n- Gamified features\n- Computer vision for gesture recognition"
+    },
+    {
+      "keywords": ["experience", "work", "professional", "career", "jobs", "roles", "work history", "past work", "professional background", "job experience", "career path", "what have you done", "work experience", "professional journey", "past roles"],
+      "answer": "**Professional Experience:**\n\n- **Founder & AI Educator / Consultant, NeuraX AI (Mar 2025 – Present):**\n  - Built and shared AI tools for educators and students\n  - Developed GenAI-powered dashboards and automation bots\n- **Principal AI & Data Science Engineer, GDI Nexus LLP (June 2025 – Present):**\n  - Led multilingual NLP pipelines and hybrid chatbot development\n- **Software Intern, GDI Nexus LLP (Feb 2025 – May 2025):**\n  - Built AI-CRM bot, Hotel Management System, and NLP pipelines\n- **AI Intern, Bharat Intern (Jun 2023 – Jul 2023):**\n  - Improved F1 score for health data, applied ARIMA for time-series\n- **Data Science Fellow, Oasis Infobyte (Apr 2023 – May 2023):**\n  - Delivered 90% accurate financial predictions"
+    },
+    {
+      "keywords": ["projects", "portfolio", "work done", "achievements", "contributions", "past projects", "what have you built", "your work", "project details", "your creations", "portfolio overview", "software projects", "AI projects", "development work", "coding projects"],
+      "answer": "**Key Projects:**\n\n- **Sign Language Interpreter System:** Computer vision for non-verbal communication\n- **AI Diet Assistant:** LLM-powered nutrition platform ([GitHub](https://github.com/iamrealvinnu/ai-diet-assistant))\n- **TaskFlow Agent:** AI productivity platform ([GitHub](https://github.com/iamrealvinnu/taskflow-agent))\n- **Hand Gesture Recognition Prototype:** Research project using OpenCV & CNNs\n\nSee all projects on [GitHub](https://github.com/iamrealvinnu)"
+    },
+    {
+      "keywords": ["education", "academic", "degree", "studies", "qualifications", "schooling", "academic background", "educational background", "what did you study", "your education", "academic qualifications", "school", "college", "university"],
+      "answer": "**Education & Achievements:**\n\n- **M.Sc. Information Technology** (9.09 CGPA)\n- **CREAM AWARDS 2024:** Best in Academics (PG)\n- **Aavishkar Research:** Inter- & Intra-Collegiate competitions\n- **Google Cloud certifications** in AI/ML\n- Strong foundation in computer science and software development"
+    },
+    {
+      "keywords": ["publications", "research", "papers", "articles", "writing", "authored", "research work", "published work", "your publications", "research papers", "academic writing", "what have you published", "books", "research contributions"],
+      "answer": "**Publications & Research:**\n\n- _NeuroGraph: Decoding Handwriting with AI_ (Amazon Kindle, Google PlayBook)\n- _Hand Gesture Recognition: Unveiling the Power of Nonverbal Communication_ (IJERT, Vol 12, Issue 3, Mar 2023)\n- Ongoing: _Optimizing AI-Driven Predictive Safety and Voice-Activated SOS in Next Generation Mobile Apps_"
+    },
+    {
+      "keywords": ["awards", "recognition", "achievements", "honors", "accolades", "prizes", "academic awards", "recognitions", "your awards", "what have you won", "honor roll", "certificates of achievement"],
+      "answer": "**Awards & Recognition:**\n\n- CREAM AWARDS 2024: Best in Academics (PG)\n- Certificate of Appreciation: Aavishkar Inter-Collegiate Research\n- Certificate of Participation: Aavishkar Intra-Collegiate Research"
+    },
+    {
+      "keywords": ["certifications", "certificates", "credentials", "badges", "courses", "training", "professional certifications", "online courses", "your certifications", "what courses have you done", "skill badges"],
+      "answer": "**Certifications:**\n\n- **Google Cloud Skill Badges (May 2024):**\n  - Prompt Design in Vertex AI ([Credly](https://www.credly.com/badges/c52f24dc-cfde-412f-bb3a-867273ef497b/public_url))\n  - Develop GenAI Apps with Gemini and Streamlit ([Credly](https://www.credly.com/badges/40709468-a797-41e3-963a-b026f5bd7193/public_url))\n  - Use Machine Learning APIs on Google Cloud ([Credly](https://www.credly.com/badges/d937409c-6f40-4b32-99ff-d0927c97979b/public_url))\n  - Perform Predictive Data Analysis in BigQuery\n- **Software Engineering Virtual Experience (J.P. Morgan)** ([Certificate](https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/R5iK7HMxJGBgaSbvk_J.P.%20Morgan_X7cMZqfKjnF7opPzs_1662486194804_completion_certificate.pdf))"
+    },
+    {
+      "keywords": ["contact", "reach you", "get in touch", "email", "phone", "social", "how to contact", "connect", "social media", "contact details", "how to reach Vinay", "your email", "your phone", "LinkedIn", "GitHub profile"],
+      "answer": "**Contact:**\n\n- Email: [gupta.vinayC@gmail.com](mailto:gupta.vinayC@gmail.com)\n- Phone: [+91-7738927663](tel:+917738927663)\n- LinkedIn: [linkedin.com/in/guptavinayc](https://linkedin.com/in/guptavinayc)\n- GitHub: [github.com/iamrealvinnu](https://github.com/iamrealvinnu)"
+    },
+    {
+      "keywords": ["hobbies", "interests", "passions", "outside work", "personal", "what do you do for fun", "personal interests", "hobbies and interests", "what are you passionate about", "leisure activities", "personal life"],
+      "answer": "**Interests & Passions:**\n\n- Advancing AI for non-verbal communication\n- Data visualization and analytics\n- Open-source contributions ([GitHub](https://github.com/iamrealvinnu))\n- Staying updated on AI/ML advancements\n- Exploring innovative technology"
+    },
+    {
+      "keywords": ["tools", "software", "development tools", "frameworks", "libraries", "platforms", "development stack", "software you use", "coding tools", "tech tools", "your tech stack"],
+      "answer": "I use Python, Flask, Pandas, React, TypeScript, Node.js, WebSocket, and REST APIs for web and AI development. For computer vision, I leverage OpenCV and CNNs, as in my Hand Gesture Recognition project. Excel is used for data analysis and stakeholder reporting, ensuring scalable and modular solutions."
+    },
+    {
+      "keywords": ["AI Diet Assistant", "nutrition platform", "diet project", "personalized nutrition", "diet app", "nutrition tool", "AI diet tool", "health platform"],
+      "answer": "The AI Diet Assistant is a personalized nutrition platform I developed using Python, Flask, React, TypeScript, and REST APIs. It offers LLM-powered dietary insights, calorie tracking, and gamified features, with a modular architecture and real-time analytics for an engaging user experience."
+    },
+    {
+      "keywords": ["TaskFlow Agent", "productivity platform", "task bot", "task management", "productivity tool", "AI task manager", "task automation", "workflow tool"],
+      "answer": "TaskFlow Agent is an AI productivity platform I built with React, Node.js, and WebSocket for real-time updates. It features RLP-based task auto-categorization and Exceldepartments Excel-based stakeholder reports, providing efficient task management and actionable business insights."
+    },
+    {
+      "keywords": ["Hand Gesture Recognition", "sign language", "computer vision", "non-verbal communication", "gesture project", "gesture recognition", "sign language system", "gesture AI"],
+      "answer": "My Hand Gesture Recognition prototype, built using OpenCV and CNNs, focuses on non-verbal communication. Published in IJERT (March 2023), it was evaluated for accuracy across diverse conditions with Excel-based data analysis. It builds on my final year sign language interpreter system developed with two team members."
+    },
+    {
+      "keywords": ["GitHub", "portfolio link", "source code", "projects online", "code repository", "your GitHub", "open-source profile", "project repository", "GitHub link"],
+      "answer": "My GitHub profile (https://github.com/iamrealvinnu) hosts the source code for projects like the AI Diet Assistant, TaskFlow Agent, and Hand Gesture Recognition prototype, offering a comprehensive view of my AI, ML, and software development work."
+    },
+    {
+      "keywords": ["research interest", "research focus", "what do you research", "AI research", "research areas", "your research", "research topics", "what are you researching"],
+      "answer": "My research interests include computer vision, non-verbal communication, and AI-driven analytics. I've published on hand gesture recognition (IJERT, March 2023) and co-authored 'Neuro/0raph: Decoding Handwriting with AI' (2001 copies sold). My ongoing work explores AI-driven predictive safety and voice-activated SOS in mobile apps."
+    },
+    {
+      "keywords": ["teamwork", "collaboration", "group projects", "working with others", "team projects", "team efforts", "collaborative work", "group work"],
+      "answer": "I collaborated with two team members on a sign language interpreter system for my final year project, leveraging computer vision. My AI Diet Assistant and TaskFlow Agent projects involved integrating stakeholder feedback, ensuring modular and scalable solutions. I excel in team settings, balancing technical and communication skills."
+    },
+    {
+      "keywords": ["data analysis", "analytics", "data visualization", "reporting", "data processing", "data insights", "analytical skills", "data reporting"],
+      "answer": "I use Excel for data analysis and stakeholder reporting, as seen in the TaskFlow Agent and Hand Gesture Recognition projects. The AI Diet Assistant incorporates real-time analytics for dietary insights, demonstrating my ability to transform data into actionable outcomes."
+    },
+    {
+      "keywords": ["real-time systems", "live updates", "WebSocket", "dynamic applications", "real-time apps", "live data", "real-time features", "dynamic systems"],
+      "answer": "The TaskFlow Agent uses WebSocket for real-time task updates, ensuring a seamless user experience. The AI Diet Assistant features real-time analytics via REST APIs and modular architecture, showcasing my expertise in building dynamic, responsive applications."
+    },
+    {
+      "keywords": ["non-verbal communication", "gesture recognition", "sign language system", "gesture-based AI", "non-verbal AI", "gesture technology", "sign language tech"],
+      "answer": "My work in non-verbal communication includes a sign language interpreter system (final year project with two team members) and a Hand Gesture Recognition prototype using OpenCV and CNNs, published in IJERT (March 2023). Both projects used Excel for data analysis, focusing on accurate gesture interpretation."
+    },
+    {
+      "keywords": ["open-source", "GitHub contributions", "public projects", "source code sharing", "open-source projects", "open-source work", "public code", "contributions online"],
+      "answer": "I contribute to open-source via my GitHub profile (https://github.com/iamrealvinnu), sharing projects like the AI Diet Assistant, TaskFlow Agent, and Hand Gesture Recognition prototype, prioritizing modular coding and accessible AI solutions."
+    },
+    {
+      "keywords": ["Google Cloud", "cloud skills", "cloud certifications", "cloud expertise", "cloud platforms", "Google Cloud skills", "cloud computing", "cloud training"],
+      "answer": "I hold Google Cloud Skill Badges (May 2024) in Prompt Design in Vertex AI, Develop GenAI Apps with Gemini and Streamlit, Use Machine Learning APIs on Google Cloud, and Perform Predictive Data Analysis in BigQuery, reflecting my proficiency in cloud-based AI and data solutions."
+    },
+    {
+      "keywords": ["software engineering", "development practices", "coding standards", "software development", "coding practices", "development methodology", "software design"],
+      "answer": "My software engineering practices include modular coding, unit testing, and Agile methodologies, applied in projects like the AI Diet Assistant and TaskFlow Agent. I completed a Software Engineering Virtual Experience and use Git/GitHub for version control, ensuring robust solutions."
+    },
+    {
+      "keywords": ["NLP", "natural language processing", "language models", "LLM", "language processing", "text processing", "AI language", "NLP skills"],
+      "answer": "I apply NLP in the AI Diet Assistant for LLM-powered dietary insights and in the TaskFlow Agent for RLP-based task categorization, demonstrating my ability to implement natural language processing for automation and user-focused solutions."
+    },
+    {
+      "keywords": ["computer vision", "vision models", "OpenCV", "CNNs", "vision-based AI", "visual AI", "image processing", "computer vision skills"],
+      "answer": "My computer vision expertise includes a sign language interpreter system and a Hand Gesture Recognition prototype using OpenCV and CNNs. The latter, published in IJERT (March 2023), was evaluated for accuracy across diverse conditions, with results analyzed in Excel."
+    },
+    {
+      "keywords": ["final year project", "sign language project", "interpreter system", "group project", "final project", "senior project", "capstone project"],
+      "answer": "For my final year project, I led a team of three to develop a sign language interpreter system using computer vision, laying the foundation for my Hand Gesture Recognition prototype, focusing on accurate non-verbal communication."
+    },
+    {
+      "keywords": ["stakeholder reporting", "business insights", "Excel reporting", "data reports", "reporting tools", "business analytics", "stakeholder analytics"],
+      "answer": "I use Excel for stakeholder reporting, as in the TaskFlow Agent, where I generated business insights from task data. The Hand Gesture Recognition project also utilized Excel for data analysis, ensuring clear and actionable reporting."
+    },
+    {
+      "keywords": ["modular architecture", "scalable systems", "software design", "system architecture", "scalable design", "modular coding", "system design"],
+      "answer": "My projects, like the AI Diet Assistant and TaskFlow Agent, feature modular architectures for scalability and maintainability, built with Python, Flask, React, and REST APIs, prioritizing clean code and efficient real-time features."
+    },
+    {
+      "keywords": ["publication sales", "book sales", "Neuro/0raph", "handwriting decoding", "book performance", "publication success"],
+      "answer": "I co-authored 'Neuro/0raph: Decoding Handwriting with AI,' published on Amazon Kindle and Google PlayBook, which sold 2001 copies, highlighting my expertise in AI-driven handwriting analysis."
+    },
+    {
+      "keywords": ["ongoing research", "current projects", "predictive safety", "voice-activated SOS", "current research", "ongoing work", "research in progress"],
+      "answer": "I'm working on a research paper titled 'Optimizing AI-Driven Predictive Safety and Voice-Activated SOS in Next Generation Mobile Apps,' exploring innovative AI applications for safety and accessibility."
+    },
+    {
+      "keywords": ["AI applications", "AI tools", "machine learning projects", "AI development", "AI solutions", "AI systems"],
+      "answer": "My AI applications include the AI Diet Assistant (LLM-powered dietary insights), TaskFlow Agent (RLP-based task categorization), and Hand Gesture Recognition (computer vision), showcasing practical and innovative AI solutions."
+    },
+    {
+      "keywords": ["data-driven solutions", "data analytics", "data-driven projects", "analytical projects", "data-based work"],
+      "answer": "I develop data-driven solutions, such as real-time analytics in the AI Diet Assistant and Excel-based reporting in the TaskFlow Agent and Hand Gesture Recognition projects, ensuring actionable insights from complex data."
+    },
+    {
+      "keywords": ["real-world projects", "practical applications", "real-world AI", "applied AI", "practical AI projects"],
+      "answer": "My projects, like the AI Diet Assistant for personalized nutrition and TaskFlow Agent for productivity, apply AI to real-world challenges, integrating technologies like Python, React, and WebSocket for practical, user-focused solutions."
+    },
+    {
+      "keywords": ["research prototype", "prototype development", "experimental projects", "AI prototypes", "research models"],
+      "answer": "My Hand Gesture Recognition prototype, built with OpenCV and CNNs, is a research-focused project published in IJERT (March 2023), evaluated for accuracy and analyzed using Excel, advancing non-verbal communication."
+    },
+    {
+      "keywords": ["academic competitions", "research competitions", "Aavishkar", "research events", "academic contests"],
+      "answer": "I participated in Aavishkar Inter-Collegiate and Intra-Collegiate Research competitions, earning a Certificate of Appreciation and a Certificate of Participation, showcasing my research capabilities in AI."
+    },
+    {
+      "keywords": ["AI innovation", "innovative AI", "AI advancements", "cutting-edge AI", "AI breakthroughs"],
+      "answer": "My work drives AI innovation through projects like the AI Diet Assistant (LLM-powered insights), TaskFlow Agent (real-time task management), and Hand Gesture Recognition (computer vision), pushing boundaries in accessibility and automation."
+    },
+    {
+      "keywords": ["technical publications", "AI publications", "research articles", "technical papers", "AI research papers"],
+      "answer": "My publications include 'Neuro/0raph: Decoding Handwriting with AI' (2001 copies sold) and 'Hand Gesture Recognition' (IJERT, March 2023), with ongoing research on AI-driven predictive safety in mobile apps."
+    },
+    {
+      "keywords": ["project management", "development process", "project leadership", "managing projects", "project coordination"],
+      "answer": "I led a team of three in developing a sign language interpreter system and managed the development of the AI Diet Assistant and TaskFlow Agent, ensuring modular designs and stakeholder alignment."
+    },
+    {
+      "keywords": ["user experience", "UX", "user-focused design", "user interface", "UI/UX", "user-centric projects"],
+      "answer": "My projects, like the AI Diet Assistant with gamified features and TaskFlow Agent with real-time updates, prioritize user experience through intuitive interfaces and responsive designs built with React and WebSocket."
+    },
+    {
+      "keywords": ["version control", "Git", "source control", "code management", "GitHub usage"],
+      "answer": "I use Git/GitHub (https://github.com/iamrealvinnu) for version control across all projects, ensuring efficient code management and collaboration for projects like the AI Diet Assistant and TaskFlow Agent."
+    }
+  ]
