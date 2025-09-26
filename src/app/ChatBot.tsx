@@ -27,7 +27,7 @@ const markdownComponents = {
 export default function ChatBot() {
   const [open, setOpen] = useState(false);
   const [messages, setMessages] = useState([
-    { from: 'bot', text: 'Hi! I am VinayBot 🤖. Ask me anything about this portfolio, my skills, projects, or how to contact me!' }
+    { from: 'bot', text: 'Hi! I am Pravith Bot 🤖. Ask me anything about this portfolio, my skills, projects, or how to contact me!' }
   ]);
   const [input, setInput] = useState('');
   const messagesEndRef = useRef<HTMLDivElement>(null);
@@ -65,7 +65,7 @@ export default function ChatBot() {
           <div className="flex items-center justify-between px-6 py-4 border-b border-purple-400/20 bg-gradient-to-r from-blue-100/60 to-purple-100/60 dark:from-blue-900/30 dark:to-purple-900/30 rounded-t-3xl">
             <div className="flex items-center gap-3">
               <FaRobot className="text-purple-600 text-2xl animate-pulse-glow" />
-              <span className="font-bold text-slate-900 dark:text-white text-lg">VinayBot</span>
+              <span className="font-bold text-slate-900 dark:text-white text-lg">Pravith kumar J Bot</span>
               <span className="ml-2 px-2 py-1 text-xs rounded-full bg-gradient-to-r from-blue-100 to-purple-100 dark:from-blue-900/30 dark:to-purple-900/30 text-blue-700 dark:text-blue-300 font-medium animate-pulse-glow">Ask me anything!</span>
             </div>
             <button onClick={() => setOpen(false)} className="text-slate-400 hover:text-pink-500 transition-colors text-xl"><FaTimes /></button>

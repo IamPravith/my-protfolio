@@ -1,6 +1,6 @@
 "use client";
 import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaArrowDown, FaRocket, FaBrain, FaCode, FaAward, FaGraduationCap } from "react-icons/fa";
-import { SiPython, SiTensorflow, SiPytorch, SiReact, SiTypescript, SiDotnet, SiFlask, SiMysql, SiGit, SiDocker, SiKubernetes, SiAmazon } from "react-icons/si";
+import { SiPython, SiTensorflow, SiPytorch, SiReact, SiTypescript, SiDotnet, SiFlask, SiMysql, SiGit, SiDocker, SiKubernetes, SiAmazon, SiTableau, SiR } from "react-icons/si";
 import { useEffect, useState } from "react";
 import ChatBot from './ChatBot';
 
@@ -64,16 +64,16 @@ export default function Home() {
 
   const skills = [
     { name: "Python", level: 95, icon: SiPython, color: "#3776AB" },
-    { name: "TensorFlow", level: 90, icon: SiTensorflow, color: "#FF6F00" },
+    { name: "Tabluae", level: 90, icon: SiTableau, color: "#FF6F00" },
     { name: "PyTorch", level: 88, icon: SiPytorch, color: "#EE4C2C" },
-    { name: "React", level: 85, icon: SiReact, color: "#61DAFB" },
-    { name: "TypeScript", level: 82, icon: SiTypescript, color: "#3178C6" },
-    { name: "C#/.NET", level: 80, icon: SiDotnet, color: "#512BD4" },
-    { name: "Flask", level: 85, icon: SiFlask, color: "#000000" },
+    { name: "R", level: 85, icon: SiR, color: "#61DAFB" },
+    { name: "Promt engineering", level: 82, icon: SiTypescript, color: "#3178C6" },
+    { name: "DBMS", level: 80, icon: SiDotnet, color: "#512BD4" },
+    { name: "SQL", level: 85, icon: SiFlask, color: "#000000" },
     { name: "MySQL", level: 78, icon: SiMysql, color: "#4479A1" },
     { name: "Git", level: 90, icon: SiGit, color: "#F05032" },
-    { name: "Docker", level: 75, icon: SiDocker, color: "#2496ED" },
-    { name: "Kubernetes", level: 70, icon: SiKubernetes, color: "#326CE5" },
+    { name: "PowerBI", level: 75, icon: SiDocker, color: "#2496ED" },
+    { name: "DBMS", level: 70, icon: SiKubernetes, color: "#326CE5" },
     { name: "AWS", level: 72, icon: SiAmazon, color: "#FF9900" }
   ];
 
@@ -128,7 +128,7 @@ export default function Home() {
               <div className={`text-xl font-bold transition-all duration-300 ${
                 scrollY > 50 ? 'text-slate-900 dark:text-white' : 'text-white'
               }`}>
-                <a href="#home" className="animate-gradient-text focus:outline-none focus:ring-2 focus:ring-blue-400 rounded transition-shadow duration-200 hover:underline cursor-pointer">Vinay Gupta</a>
+                <a href="#home" className="animate-gradient-text focus:outline-none focus:ring-2 focus:ring-blue-400 rounded transition-shadow duration-200 hover:underline cursor-pointer">Pravith Kumar J</a>
               </div>
               <div className="hidden md:flex space-x-8">
                 {[
@@ -294,7 +294,7 @@ export default function Home() {
                 <h1 className="text-7xl md:text-9xl font-black text-white mb-6 animate-fade-in">
                   Hi, I&apos;m{" "}
                   <span className="animate-gradient-text-neon relative">
-                    Vinay
+                    Pravith Kumar
                     <div className="absolute inset-0 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 blur-lg opacity-50 animate-pulse"></div>
                   </span>
                 </h1>
@@ -302,7 +302,7 @@ export default function Home() {
                 {/* Animated Subtitle */}
                 <div className="text-3xl md:text-4xl text-white/90 mb-8 max-w-5xl mx-auto animate-slide-up">
                   <div className="flex flex-wrap justify-center items-center gap-4">
-                    <span className="inline-block animate-slide-in-left">AI/ML Developer</span>
+                    <span className="inline-block animate-slide-in-left">POWER BI Developer</span>
                     <span className="inline-block text-blue-300 animate-pulse">|</span>
                     <span className="inline-block animate-slide-in-right">NLP & GenAI Enthusiast</span>
                     <span className="inline-block text-blue-300 animate-pulse">|</span>
@@ -418,9 +418,9 @@ export default function Home() {
                     Professional Summary
                   </h3>
                   <p className="text-lg text-slate-600 dark:text-slate-300 mb-6 leading-relaxed">
-                    AI/ML Developer with a strong focus on NLP, GenAI, and end-to-end ML solutions. Experienced in 
-                    developing intelligent tools for education, automation, and multilingual systems, with a passion for building 
-                    accessible AI experiences. 
+                   Data & Business Analyst with expertise in data visualization, statistical modeling, 
+                   and business intelligence. Skilled in transforming raw data into actionable insights using tools like Power BI, 
+                   Tableau, SQL, and Python, with a focus on driving strategic decision-making and operational efficiency.
                   </p>
                   <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
                     I have been actively involved in research, teaching, and building practical AI solutions that solve real-world problems.
@@ -430,8 +430,8 @@ export default function Home() {
                 {/* Quick Stats */}
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
                   {[
-                    { icon: FaGraduationCap, label: "Education", value: "M.Sc. IT", sub: "9.09 CGPA" },
-                    { icon: FaAward, label: "Awards", value: "CREAM 2024", sub: "Best in Academics" },
+                    { icon: FaGraduationCap, label: "Education", value: "MBA", sub: "8.09 CGPA" },
+                    { icon: FaAward, label: "Awards", value: "BEST MANAGER 2023", sub: "Best in Academics" },
                     { icon: FaCode, label: "Projects", value: "10+", sub: "Completed" }
                   ].map((stat, index) => (
                     <div 
@@ -455,15 +455,15 @@ export default function Home() {
                   <div className="space-y-3">
                     <div className="flex items-center gap-3">
                       <FaEnvelope className="text-blue-600" />
-                      <span className="text-slate-600 dark:text-slate-300">gupta.vinayC@gmail.com</span>
+                      <span className="text-slate-600 dark:text-slate-300">pravithpravith88@gmail.com</span>
                     </div>
                     <div className="flex items-center gap-3">
                       <FaPhone className="text-green-600" />
-                      <span className="text-slate-600 dark:text-slate-300">+91-7738927663</span>
+                      <span className="text-slate-600 dark:text-slate-300">+91-7539906947</span>
                     </div>
                     <div className="flex items-center gap-3">
                       <FaGraduationCap className="text-purple-600" />
-                      <span className="text-slate-600 dark:text-slate-300">M.Sc. Information Technology</span>
+                      <span className="text-slate-600 dark:text-slate-300">MBA. BUSINESS ANALYST</span>
                     </div>
                   </div>
                 </div>
@@ -861,7 +861,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                title: "AI Diet Assistant",
+                title: "IPL ANALYSIS DASHBOARD",
                 description: "Personalized nutrition platform with LLM-powered dietary insights, calorie tracking, and food recommendations.",
                 tags: ["Python", "Flask", "React", "TypeScript"],
                 tagColors: "bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200",
@@ -871,7 +871,7 @@ export default function Home() {
                 gradient: "from-blue-500 to-cyan-500"
               },
               {
-                title: "TaskFlow Agent",
+                title: "NETFLIX ANALYSIS DASHBOARD",
                 description: "AI productivity platform with NLP-based auto-categorization of tasks and real-time analytics.",
                 tags: ["React", "Node.js", "WebSocket", "NLP"],
                 tagColors: "bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200",
@@ -1248,14 +1248,14 @@ export default function Home() {
             <div className="glass-card p-8 animate-slide-in-left">
               <FaEnvelope className="text-blue-600 text-3xl mx-auto mb-4" />
               <a href="mailto:gupta.vinayC@gmail.com" className="text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
-                gupta.vinayC@gmail.com
+                pravithpravith88@gmail.com
               </a>
             </div>
             
             <div className="glass-card p-8 animate-slide-in-right">
               <FaPhone className="text-green-600 text-3xl mx-auto mb-4" />
               <a href="tel:+917738927663" className="text-slate-600 dark:text-slate-300 hover:text-green-600 dark:hover:text-green-400 transition-colors">
-                +91-7738927663
+                +91-7539906947
               </a>
             </div>
           </div>
