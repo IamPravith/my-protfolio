@@ -39,7 +39,7 @@ export default function ChatBot() {
   }, [messages, open]);
 
 // Global chat history
-let chatHistory: string[] = [];
+const chatHistory: string[] = [];
 
 function sendMessage() {
     if (!input.trim()) return;
