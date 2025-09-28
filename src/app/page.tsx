@@ -1,8 +1,9 @@
 "use client";
 import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaArrowDown, FaRocket, FaBrain, FaCode, FaAward, FaGraduationCap } from "react-icons/fa";
-import { SiPython, SiTensorflow, SiPytorch, SiReact, SiTypescript, SiDotnet, SiFlask, SiMysql, SiGit, SiDocker, SiKubernetes, SiAmazon, SiTableau, SiR } from "react-icons/si";
+import { SiPython, SiPytorch, SiTypescript, SiDotnet, SiFlask, SiMysql, SiGit, SiDocker, SiKubernetes, SiAmazon, SiTableau, SiR, SiJupyter, SiPlotly } from "react-icons/si";
 import { useEffect, useState } from "react";
 import ChatBot from './ChatBot';
+import { MdAccessTime, MdArticle, MdAttachMoney, MdAutorenew, MdChatBubble, MdGroups, MdLightbulb, MdOutlineHowToReg, MdOutlineSupervisorAccount, MdPsychology, MdSearch, MdStackedBarChart } from "react-icons/md";
 
 export default function Home() {
   const [isVisible, setIsVisible] = useState(false);
@@ -63,19 +64,29 @@ export default function Home() {
   }, []);
 
   const skills = [
-    { name: "Python", level: 95, icon: SiPython, color: "#3776AB" },
-    { name: "Tabluae", level: 90, icon: SiTableau, color: "#FF6F00" },
-    { name: "PyTorch", level: 88, icon: SiPytorch, color: "#EE4C2C" },
-    { name: "R", level: 85, icon: SiR, color: "#61DAFB" },
-    { name: "Promt engineering", level: 82, icon: SiTypescript, color: "#3178C6" },
-    { name: "DBMS", level: 80, icon: SiDotnet, color: "#512BD4" },
-    { name: "SQL", level: 85, icon: SiFlask, color: "#000000" },
-    { name: "MySQL", level: 78, icon: SiMysql, color: "#4479A1" },
+    { name: "R", level: 95, icon: SiR, color: "#3776AB" },
+    { name: "PYTHON", level: 90, icon: SiPython, color: "#FF6F00" },
+    { name: "SQL", level: 88, icon: SiMysql, color: "#EE4C2C" }, // or SiMysql if using MySQL
+  // { name: "ML(Python)", level: 85, icon: SiTensorflow, color: "#61DAFB" },
+    { name: "MS EXCEL", level: 82, icon: MdArticle, color: "#3178C6" },
+    { name: "TABLEAU", level: 80, icon: SiTableau, color: "#512BD4" },
+    { name: "POWER BI", level: 85, icon: MdStackedBarChart, color: "#FFC107"},
+    { name: "DBMS", level: 78, icon: SiMysql, color: "#4479A1" },
     { name: "Git", level: 90, icon: SiGit, color: "#F05032" },
-    { name: "PowerBI", level: 75, icon: SiDocker, color: "#2496ED" },
-    { name: "DBMS", level: 70, icon: SiKubernetes, color: "#326CE5" },
-    { name: "AWS", level: 72, icon: SiAmazon, color: "#FF9900" }
-  ];
+    { name: "TALLY ERP 9", level: 80, icon: MdAttachMoney, color: "#0F52BA" },
+    { name: "Statistics & Data Modeling", level: 88, icon: SiJupyter, color: "#F37626" },
+    { name: "Data Visualization & Plotting", level: 90, icon: SiPlotly, color: "#FF5733" },
+    { name: "Attention to Detail", level: 90, icon: MdSearch, color: "#8E44AD" },
+    { name: "Leadership", level: 90, icon: MdOutlineSupervisorAccount, color: "#6C5CE7" },
+    { name: "Teamwork", level: 88, icon: MdGroups, color: "#00B894" },
+    { name: "Critical Thinking", level: 92, icon: MdPsychology, color: "#FD79A8" },
+    { name: "Problem Solving", level: 91, icon: MdLightbulb, color: "#FDCB6E" },
+    { name: "Time Management", level: 85, icon: MdAccessTime, color: "#0984E3" },
+    { name: "Communication", level: 90, icon: MdChatBubble, color: "#00CEC9" },
+    { name: "Adaptability", level: 87, icon: MdAutorenew, color: "#D63031" },
+    { name: "Decision Making", level: 89, icon: MdOutlineHowToReg, color: "#E17055" }
+
+ ];
 
   return (
     <div className="relative min-h-screen">
@@ -132,14 +143,14 @@ export default function Home() {
               </div>
               <div className="hidden md:flex space-x-8">
                 {[
-                  { id: 'home', label: 'Home' },
-                  { id: 'about', label: 'About' },
-                  { id: 'skills', label: 'Skills' },
-                  { id: 'experience', label: 'Experience' },
-                  { id: 'additional', label: 'Additional' },
-                  { id: 'projects', label: 'Projects' },
-                  { id: 'publications', label: 'Publications' },
-                  { id: 'contact', label: 'Contact' }
+                  { id: 'home', label: 'HOME🏠' },
+                  { id: 'about', label: 'ABOUT🗝️' },
+                  { id: 'skills', label: 'SKILLS💡' },
+                  { id: 'career', label: ' CAREER🏹' },
+                  { id: 'additional', label: 'ADDITIONAL✨' },
+                  { id: 'projects', label: 'PROJECTS📁' },
+                  { id: 'publications', label: 'ACHIVEMENTS🎖️' },
+                  { id: 'contact', label: 'CONTACT📞' }
                 ].map((item) => (
                   <a 
                     key={item.id}
@@ -302,11 +313,11 @@ export default function Home() {
                 {/* Animated Subtitle */}
                 <div className="text-3xl md:text-4xl text-white/90 mb-8 max-w-5xl mx-auto animate-slide-up">
                   <div className="flex flex-wrap justify-center items-center gap-4">
-                    <span className="inline-block animate-slide-in-left">POWER BI Developer</span>
+                    <span className="inline-block animate-slide-in-left">Data Analyst</span>
                     <span className="inline-block text-blue-300 animate-pulse">|</span>
-                    <span className="inline-block animate-slide-in-right">NLP & GenAI Enthusiast</span>
+                    <span className="inline-block animate-slide-in-right">Business Intelligence & Analytics Enthusiast</span>
                     <span className="inline-block text-blue-300 animate-pulse">|</span>
-                    <span className="inline-block animate-slide-in-left">Full-Stack ML Engineer</span>
+                    <span className="inline-block animate-slide-in-left">Transforming Data into Strategic Insights</span>
                   </div>
                 </div>
               </div>
@@ -315,13 +326,13 @@ export default function Home() {
               <p className="text-xl md:text-2xl text-white/70 mb-16 max-w-4xl mx-auto animate-slide-up-delay leading-relaxed">
                 Building{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400 font-semibold animate-gradient-text">
-                  intelligent tools
+                  data-driven solutions
                 </span>{" "}
-                for education, automation, and multilingual systems.{" "}
+                and analytics dashboards to generate actionable business insights.{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400 font-semibold animate-gradient-text">
                   Passionate
                 </span>{" "}
-                about creating accessible AI experiences that make a difference.
+                about leveraging data to support decision-making and drive impactful outcomes.
               </p>
               
               {/* Advanced Action Buttons */}
@@ -358,9 +369,9 @@ export default function Home() {
               {/* Interactive Stats */}
               <div className="mt-16 grid grid-cols-2 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
                 {[
-                  { number: "10+", label: "Projects Completed", icon: "\ud83d\udcbb", color: "from-green-500 to-emerald-500" },
-                  { number: "9.09", label: "CGPA", icon: "\ud83c\udf93", color: "from-purple-500 to-pink-500" },
-                  { number: "100%", label: "AI Focused", icon: "\ud83e\udde0", color: "from-orange-500 to-red-500" }
+                  { number: "4", label: "Projects Completed", icon: "\ud83d\udcbb", color: "from-green-500 to-emerald-500" },
+                  { number: "8.5", label: "CGPA Upto 2nd sem", icon: "\ud83c\udf93", color: "from-purple-500 to-pink-500" },
+                  { number: "100%", label: "Predictive Mindset", icon: "\ud83e\udde0", color: "from-orange-500 to-red-500" }
                 ].map((stat, index) => (
                   <div 
                     key={stat.label}
@@ -423,16 +434,16 @@ export default function Home() {
                    Tableau, SQL, and Python, with a focus on driving strategic decision-making and operational efficiency.
                   </p>
                   <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
-                    I have been actively involved in research, teaching, and building practical AI solutions that solve real-world problems.
+                    Turning numbers into compelling stories using tools like Power BI, Excel, and Python visualizations.
                   </p>
                 </div>
                 
                 {/* Quick Stats */}
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
                   {[
-                    { icon: FaGraduationCap, label: "Education", value: "MBA", sub: "8.09 CGPA" },
-                    { icon: FaAward, label: "Awards", value: "BEST MANAGER 2023", sub: "Best in Academics" },
-                    { icon: FaCode, label: "Projects", value: "10+", sub: "Completed" }
+                    { icon: FaGraduationCap, label: "Education", value: "MBA", sub: "Pursuing" },
+                    { icon: FaAward, label: "Awards", value: "BEST MANAGER 2023", sub: "Leadership & Team Management" },
+                    { icon: FaCode, label: "Projects", value: "4", sub: "Completed" }
                   ].map((stat, index) => (
                     <div 
                       key={stat.label}
@@ -476,7 +487,7 @@ export default function Home() {
                   <div className="flex gap-6 justify-center">
                     {/* GitHub Button */}
                     <a
-                      href="https://github.com/iamrealvinnu"
+                      href="https://github.com/IamPravith"
             target="_blank"
             rel="noopener noreferrer"
                       className="relative group flex flex-col items-center"
@@ -490,7 +501,7 @@ export default function Home() {
                     </a>
                     {/* LinkedIn Button */}
                     <a
-                      href="https://linkedin.com/in/guptavinayc"
+                      href="https://linkedin.com/in/pravith-kumar-a8619a340"
             target="_blank"
             rel="noopener noreferrer"
                       className="relative group flex flex-col items-center"
@@ -514,7 +525,7 @@ export default function Home() {
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-5xl font-bold text-slate-900 dark:text-white mb-4 animate-fade-in">
-                Skills & Expertise
+                🖥️Tech Skills & 🧠Soft skills
               </h2>
               <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto animate-slide-up"></div>
             </div>
@@ -551,11 +562,11 @@ export default function Home() {
           <div className="max-w-7xl mx-auto relative z-10">
             <div className="text-center mb-20">
               <h2 className="text-6xl font-bold text-white mb-6 animate-fade-in">
-                <span className="animate-gradient-text">Work Experience</span>
+                <span className="animate-gradient-text">CAREER EXPERIENCE🌐</span>
               </h2>
               <div className="w-32 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 mx-auto animate-slide-up rounded-full"></div>
               <p className="text-xl text-white/70 mt-6 animate-slide-up-delay">
-                My journey in AI/ML development
+                My Future-Focused Journey in Data Analysis 🚀
               </p>
             </div>
             
@@ -600,50 +611,45 @@ export default function Home() {
 
               {[
                 {
-                  title: "Founder & AI Educator / Consultant",
-                  period: "Mar 2025 – Present",
-                  company: "NeuraX AI | Hybrid",
+                  title: "JOB",
+                  period: "",
+                  STATUS: "Loading…⏳",
                   color: "from-blue-500 to-cyan-500",
                   glowColor: "blue",
                   icon: "🚀",
                   items: [
-                    "Started NeuraX AI as a personal initiative to build and share small-scale AI tools for educators and student projects",
-                    "Built automation tools like task bots and GenAI-powered dashboards using Python, React, and open-source NLP libraries",
-                    "Consulted on lightweight AI use cases such as document parsing and workflow suggestions"
+                    ""
                   ],
-                  link: "https://www.linkedin.com/company/neurax-ai/posts/?feedView=all",
+                  link: "",
                   delay: 0
                 },
                 {
-                  title: "Principal AI & Data Science Engineer",
-                  period: "June 2025 – Present",
-                  company: "GDI Nexus LLP | Hybrid (Remote-first)",
+                  title: "INTERNSHIP",
+                  period: "",
+                  STATUS: "Loading…⏳",
                   color: "from-green-500 to-emerald-500",
                   glowColor: "green",
                   icon: "🎯",
                   items: [
-                    "Early-stage leadership role in a startup context; focused on hands-on development and mentoring",
-                    "Leading AI/ML solutions for education, CRM, and productivity tech",
-                    "Designing multilingual NLP pipelines for languages (English, Hindi, Tamil, etc.)",
-                    "Developing hybrid chatbots and automation tools"
+                    ""
                   ],
-                  link: "https://www.linkedin.com/company/gdi-nexus/",
+                  link: "",
                   delay: 0.2
                 },
                 {
-                  title: "Software Intern – Project Contributor",
-                  period: "Feb 2025 – May 2025",
-                  company: "GDI Nexus LLP | Hybrid (Remote-first)",
+                  title: "Data Analytics Student",
+                  focusArea: "Data Analysis & Visualization",
+                  learningMode: "Self-Learning & Academic Projects | Hybrid",
                   color: "from-purple-500 to-pink-500",
                   glowColor: "purple",
                   icon: "⚡",
                   items: [
-                    "Built AI-CRM bot in Python, C#, React; handled 500+ queries/day",
-                    "Developed Hotel Management System with Flask & MySQL",
-                    "Designed a POC for NexusLingua – an NLP pipeline for English/Hindi/Tamil text analytics",
-                    "Collaborated on API integration and TCP/IP optimizations"
+                    "📊 Technical Skills:Gaining hands-on experience in Python, R, SQL, Power BI, and Excel through academic projects and self-learning",
+  "📈 Data Projects:Building dashboards and analytical reports on real-world datasets to extract actionable insights",
+  "🧹 Data Management:Exploring data cleaning, preprocessing, and visualization techniques to develop practical analytics capabilities",
+  "🎯 Applied Analytics:Working on mini-projects like IPL performance analysis and Netflix viewership trends to strengthen problem-solving and data storytelling" 
                   ],
-                  link: "https://www.linkedin.com/company/gdi-nexus/",
+                  link: "https://app.powerbi.com/reportEmbed?reportId=9b00bb00-f728-4220-8a24-d4158717965a&autoAuth=true&ctid=a6dbc183-3bd5-46bc-8f30-e30bf936be7e",
                   delay: 0.4
                 }
               ].map((job, index) => (
@@ -681,7 +687,8 @@ export default function Home() {
                               <h3 className="text-2xl font-bold text-white mb-2 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-white group-hover:to-blue-200 transition-all duration-300 text-glow">
                                 {job.title}
                               </h3>
-                              <p className="text-lg text-white/80 font-medium">{job.company}</p>
+                              {/* If you want to show job.STATUS, use: */}
+                              <p className="text-lg text-white/80 font-medium">{job.STATUS}</p>
                             </div>
                             <span className="text-sm text-white/60 bg-white/10 px-3 py-1 rounded-full backdrop-blur-sm border-pulse">
                               {job.period}
@@ -704,7 +711,7 @@ export default function Home() {
                           <div className="mt-6 flex gap-3 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                             <a href={job.link} target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-white/10 backdrop-blur-sm rounded-lg text-white/80 hover:text-white hover:bg-white/20 transition-all duration-300 btn-advanced border border-blue-400/30 flex items-center gap-2">
                               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-                              Company Page
+                              Projects & Company Page 
                             </a>
                           </div>
                         </div>
@@ -739,45 +746,30 @@ export default function Home() {
             
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {[
-                {
-                  title: "AI Workshop Speaker",
-                  description: "Trained 120+ students on AI applications and practical implementations",
-                  icon: "🎤",
-                  color: "from-blue-500 to-cyan-500",
-                  participants: "120+ Students",
-                  category: "Teaching & Training"
-                },
+                
                 {
                   title: "Campus Hiring Team",
-                  description: "Mentored 200+ candidates for job preparation and interview skills",
+                  description: "Mentored 50+ candidates for job preparation and interview skills",
                   icon: "👥",
                   color: "from-green-500 to-emerald-500",
-                  participants: "200+ Candidates",
+                  participants: "50+ Candidates",
                   category: "Mentorship"
                 },
                 {
-                  title: "CS IT Club Relaunch",
-                  description: "Led AI workshop & career sessions for student community development",
+                  title: "MGT Club Relaunch",
+                  description: "Organized leadership workshops & management career sessions to enhance student development",
                   icon: "🏛️",
                   color: "from-purple-500 to-pink-500",
                   participants: "Club Members",
                   category: "Leadership"
                 },
                 {
-                  title: "Best Coder Competition",
-                  description: "Organized and managed coding competition for 50+ participants",
+                  title: "Best Manager Award",
+                  description: "Recognized for outstanding leadership and effective team management in a college-wide management competition",
                   icon: "🏆",
                   color: "from-orange-500 to-red-500",
-                  participants: "50+ Participants",
-                  category: "Event Management"
-                },
-                {
-                  title: "Gardenia Events",
-                  description: "Led Gardenia&apos;23 Innopitch & Gardenia&apos;24 PromptQuest innovation competitions",
-                  icon: "🎪",
-                  color: "from-indigo-500 to-purple-500",
-                  participants: "120+ Participants",
-                  category: "Innovation & AI"
+                  participants: "College Students",
+                  category: "Leadership"
                 }
               ].map((activity, index) => (
                 <div 
@@ -829,9 +821,9 @@ export default function Home() {
           {/* Summary Stats */}
           <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
-              { number: "490+", label: "Total Participants", icon: "👥" },
-              { number: "5", label: "Events Organized", icon: "🎯" },
-              { number: "4", label: "Leadership Roles", icon: "⭐" },
+              { number: "100+", label: "Total Participants", icon: "👥" },
+              { number: "3", label: "Events Organized", icon: "🎯" },
+              { number: "1", label: "Leadership Roles", icon: "⭐" },
               { number: "100%", label: "Success Rate", icon: "🚀" }
             ].map((stat, index) => (
               <div 
@@ -863,17 +855,18 @@ export default function Home() {
               {
                 title: "IPL ANALYSIS DASHBOARD",
                 description: "Personalized nutrition platform with LLM-powered dietary insights, calorie tracking, and food recommendations.",
-                tags: ["Python", "Flask", "React", "TypeScript"],
+                tags: ["Power Bi", "Excel", "Kaggle"],
                 tagColors: "bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200",
                 linkColor: "text-blue-600 dark:text-blue-400",
                 delay: 0,
                 icon: FaBrain,
-                gradient: "from-blue-500 to-cyan-500"
+                gradient: "from-blue-500 to-cyan-500",
+                link:"https://app.powerbi.com/reportEmbed?reportId=9b00bb00-f728-4220-8a24-d4158717965a&autoAuth=true&ctid=a6dbc183-3bd5-46bc-8f30-e30bf936be7e",
               },
               {
                 title: "NETFLIX ANALYSIS DASHBOARD",
                 description: "AI productivity platform with NLP-based auto-categorization of tasks and real-time analytics.",
-                tags: ["React", "Node.js", "WebSocket", "NLP"],
+                tags: ["Power Bi", "Excel", "Kaggle"],
                 tagColors: "bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200",
                 linkColor: "text-green-600 dark:text-green-400",
                 delay: 0.1,
@@ -881,14 +874,14 @@ export default function Home() {
                 gradient: "from-green-500 to-emerald-500"
               },
               {
-                title: "Hand Gesture Recognition",
-                description: "Research prototype using OpenCV and CNNs for non-verbal communication, published in IJERT.",
-                tags: ["OpenCV", "CNN", "Python", "Research"],
+                title: "Retail Sales Analysis",
+                description: "Analyzed retail sales data to uncover trends, optimize performance, and support data-driven business decisions.",
+                tags: ["SQL", "PostgreSQL", "pgAdmin 4"],
                 tagColors: "bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200",
                 linkColor: "text-purple-600 dark:text-purple-400",
                 delay: 0.2,
                 icon: FaRocket,
-                gradient: "from-purple-500 to-pink-500"
+                gradient: "from-purple-500 to-pink-500",
               }
             ].map((project) => (
               <div 
@@ -920,7 +913,7 @@ export default function Home() {
                     ))}
                   </div>
                   <a
-                    href="https://github.com/iamrealvinnu"
+                    href="https://github.com/IamPravith"
           target="_blank"
           rel="noopener noreferrer"
                     className={`${project.linkColor} hover:underline font-medium hover:scale-105 transition-transform duration-300 inline-flex items-center gap-2 group-hover:translate-x-1`}
@@ -940,68 +933,48 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold text-slate-900 dark:text-white mb-4 animate-fade-in">
-              <span className="animate-gradient-text">Publications & Achievements</span>
+              <span className="animate-gradient-text">Achievements</span>
             </h2>
             <div className="w-32 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 mx-auto animate-slide-up rounded-full"></div>
             <p className="text-xl text-slate-600 dark:text-slate-300 mt-6 animate-slide-up-delay">
-              Research, Recognition & Professional Development
+              Professional Development
             </p>
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                title: "NeuroGraph Publication",
-                description: "Co-authored &apos;Decoding Handwriting with AI&apos; published on Amazon Kindle & Google PlayBook",
-                icon: "📚",
-                color: "from-blue-500 to-cyan-500",
-                metric: "200+ Copies Sold",
-                category: "Publication",
-                link: "https://www.google.co.in/books/edition/Neural_Networks_Deep_Machine_Learning/cl3BDwAAQBAJ?hl=en&gbpv=0"
-              },
-              {
-                title: "Hand Gesture Recognition",
-                description: "Research paper on nonverbal communication through literature review published in IJERT",
-                icon: "🔬",
-                color: "from-green-500 to-emerald-500",
-                metric: "Volume 12, Issue 3",
-                category: "Research Paper",
-                badge: "Published",
-                link: "https://www.ijert.org/research/hand-gesture-recognition-unveiling-the-power-of-nonverbal-communication-through-literature-review-IJERTV12IS030116.pdf"
-              },
-              {
-                title: "AI-Driven Predictive Safety",
-                description: "Research on voice-activated SOS in next generation mobile apps (Currently Ongoing)",
-                icon: "🚨",
+                title: "Strategic Leadership Summit",
+                description: "Presented a case study on innovative management strategies and won recognition for problem-solving skills",
+                icon: "🏆",
                 color: "from-orange-500 to-red-500",
-                metric: "In Progress",
-                category: "Research Paper",
-                badge: "Ongoing"
+                metric: "Awarded",
+                category: "Management",
               },
               {
-                title: "CREAM AWARDS 2024",
-                description: "Received Best in Academics-PG award for outstanding academic performance",
+                title: "BEST MANAGER AWARDS 2022",
+                description: "Demonstrated the ability to inspire, guide, and collaborate effectively with teams to achieve common goals.",
                 icon: "🏆",
                 color: "from-yellow-500 to-orange-500",
-                metric: "Best in Academics-PG",
+                metric: "Leadership & Teamwork",
                 category: "Recognition",
                 badge: "Award",
-                link: "https://www.linkedin.com/posts/guptavinayc_creamawards2024-academicexcellence-gardencityuniversity-activity-7264692919696052224-EfOz?utm_source=share&utm_medium=member_desktop&rcm=ACoAADdqKXIBftZqAMC6oEflUdZ1sQIlPUgD4RY"
               },
+
               {
-                title: "Aavishkar Research",
-                description: "Certificate of Appreciation for Inter-Collegiate Research participation and contribution",
+                title: "Business Quiz",
+                description: "A knowledge-driven competition that tests participants on business, management, finance, current affairs, and corporate trends through a series of challenging quiz rounds.",
                 icon: "🎓",
                 color: "from-purple-500 to-pink-500",
-                metric: "Inter-Collegiate",
+                metric: "Inter-College",
                 category: "Recognition"
               }
             ].map((item, index) => (
               <div 
                 key={item.title}
-                className={`group bg-white dark:bg-slate-900 rounded-2xl p-8 shadow-xl hover-lift border border-slate-200 dark:border-slate-700 transition-all duration-500 hover:scale-105 relative overflow-hidden ${item.link ? 'cursor-pointer' : ''}`}
+                className={`group bg-white dark:bg-slate-900 rounded-2xl p-8 shadow-xl hover-lift border border-slate-200 dark:border-slate-700 transition-all duration-500 hover:scale-105 relative overflow-hidden`}
                 style={{ animationDelay: `${index * 0.1}s` }}
-                onClick={item.link ? () => window.open(item.link, '_blank') : undefined}
+
               >
                 {/* Badge */}
                 <div className="absolute top-4 right-4">
@@ -1056,15 +1029,7 @@ export default function Home() {
                     <span className="text-white text-sm">→</span>
                   </div>
                 </div>
-                
-                {/* Link indicator for clickable cards */}
-                {item.link && (
-                  <div className="absolute bottom-4 right-4">
-                    <span className="text-xs text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20 px-2 py-1 rounded-full">
-                      {item.title === 'CREAM AWARDS 2024' ? 'View Award' : 'View Publication'}
-                    </span>
-                  </div>
-                )}
+            
                 
                 {/* Two badges for Aavishkar Research */}
                 {item.title === 'Aavishkar Research' && (
@@ -1104,44 +1069,172 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {[
                 {
-                  title: "Software Engineering Virtual Experience",
-                  issuer: "J.P. Morgan",
-                  date: "2024",
-                  link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/R5iK7HMxJGBgaSbvk_J.P.%20Morgan_X7cMZqfKjnF7opPzs_1662486194804_completion_certificate.pdf",
-                  icon: "🏦",
+                  title: "Database Management Systems (DBMS)",
+                  issuer: "NPTEL – IIT Kharagpur",
+                  date: "2025",
+                  link: "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL25CS145S63210043609139344",
+                  icon: "🛢️",
                   color: "from-blue-500 to-cyan-500"
                 },
                 {
-                  title: "Prompt Design in Vertex AI",
-                  issuer: "Google Cloud",
-                  date: "May 2024",
-                  link: "https://www.credly.com/badges/c52f24dc-cfde-412f-bb3a-867273ef497b/public_url",
+                  title: "Generative AI: Introduction and Applications",
+                  issuer: "IBM",
+                  date: "2025",
+                  link: "https://coursera.org/verify/NPZ42PADU1B5",
+                  icon: "🤖",
+                  color: "from-blue-500 to-cyan-500"
+                },
+                {
+                  title: "Generative AI: Prompt Engineering Basics",
+                  issuer: "IBM",
+                  date: "2025",
+                  link: "https://coursera.org/verify/PPMRRX9SQOV5",
                   icon: "🤖",
                   color: "from-green-500 to-emerald-500"
                 },
                 {
-                  title: "Develop GenAI Apps with Gemini and Streamlit",
-                  issuer: "Google Cloud",
-                  date: "May 2024",
-                  link: "https://www.credly.com/badges/40709468-a797-41e3-963a-b026f5bd7193/public_url",
+                  title: " Generative AI: Prompt Engineering",
+                  issuer: "IBM",
+                  date: "2025",
+                  link: "https://www.credly.com/badges/7eb40537-58bc-478a-b295-62373db20083",
                   icon: "⚡",
                   color: "from-purple-500 to-pink-500"
                 },
                 {
-                  title: "Use Machine Learning APIs on Google Cloud",
-                  issuer: "Google Cloud",
-                  date: "May 2024",
-                  link: "https://www.credly.com/badges/d937409c-6f40-4b32-99ff-d0927c97979b/public_url",
-                  icon: "🔧",
+                  title: " Work Smarter with Microsoft PowerPoint",
+                  issuer: "Microsoft",
+                  date: "2025",
+                  link: "https://coursera.org/verify/98DA1UAZKFRW",
+                  icon: "⚡",
                   color: "from-orange-500 to-red-500"
                 },
                 {
-                  title: "Perform Predictive Data Analysis in BigQuery",
-                  issuer: "Google Cloud",
-                  date: "May 2024",
-                  link: "https://www.credly.com/badges/42f94984-0719-4dd7-b7a3-08b409b95c86/public_url",
-                  icon: "📊",
-                  color: "from-indigo-500 to-purple-500"
+                  title: "Work Smarter with Microsoft Word",
+                  issuer: "Microsoft",
+                  date: "2025",
+                  link: "https://coursera.org/verify/669DDNDSLZ2B",
+                  icon: "⚡",
+                  color: "from-green-500 to-emerald-500"
+                },
+                {
+                  title: " Creating a Budget with Microsoft Excel",
+                  issuer: "Coursera",
+                  date: "2025",
+                  link: "https://coursera.org/verify/JN0S9JYMN989",
+                  icon: "⚡",
+                  color: "from-purple-500 to-pink-500"
+                },
+                {
+                  title: " Financial Statement and Ratio Analysis for Accountants",
+                  issuer: "I ILLINOIS",
+                  date: "2025",
+                  link: "https://coursera.org/verify/AD7E3S5C1PJ9",
+                  icon: "⚡",
+                  color: "from-orange-500 to-red-500"
+                },
+                {
+                  title: "Introduction to Economic Theories",
+                  issuer: "Erasmus university Rotterdom",
+                  date: "2025",
+                  link: "https://coursera.org/verify/4DWQAKUHQKO0",
+                  icon: "⚡",
+                  color: "from-green-500 to-emerald-500"
+                },
+                {
+                  title: " Get Started with Mail and Calendar Applications: Outlook",
+                  issuer: "SKillUp EDTECH",
+                  date: "2025",
+                  link: "https://coursera.org/verify/U44BF3XMTP1N",
+                  icon: "⚡",
+                  color: "from-purple-500 to-pink-500"
+                },
+                {
+                  title: " Organisational behaviour: Know your people",
+                  issuer: "MACQUARIE UNIVERSITY",
+                  date: "2025",
+                  link: "https://coursera.org/verify/0Q98GA5AGYVP",
+                  icon: "⚡",
+                  color: "from-orange-500 to-red-500"
+                },
+                 {
+                  title: "Understanding Research Methods",
+                  issuer: "UNIVERSITY OF LONDON",
+                  date: "2025",
+                  link: "https://coursera.org/verify/QXLKLGCFV5KU",
+                  icon: "⚡",
+                  color: "from-green-500 to-emerald-500"
+                },
+                {
+                  title: " Foundations of Business Strategy",
+                  issuer: "UNIVERSITY OF VIRGINIA",
+                  date: "2024",
+                  link: "https://coursera.org/verify/Y099N2BFEMCY",
+                  icon: "⚡",
+                  color: "from-purple-500 to-pink-500"
+                },
+                {
+                  title: " Advanced Business Strategy",
+                  issuer: "UNIVERSITY OF VIRGINIA",
+                  date: "2025",
+                  link: "https://coursera.org/verify/5LP3Y1TGILAV",
+                  icon: "⚡",
+                  color: "from-orange-500 to-red-500"
+                },
+                {
+                  title: "Business Growth Strategy",
+                  issuer: "UNIVERSITY OF VIRGINIA",
+                  date: "2025",
+                  link: "https://coursera.org/verify/FD2HS5QFYIQN",
+                  icon: "⚡",
+                  color: "from-green-500 to-emerald-500"
+                },
+                 {
+                  title: "Strategic Planning and Execution",
+                  issuer: "UNIVERSITY OF VIRGINIA",
+                  date: "2025",
+                  link: "https://coursera.org/verify/U0DOGBSIB58D",
+                  icon: "⚡",
+                  color: "from-purple-500 to-pink-500"
+                },
+                {
+                  title: " Business Strategy",
+                  issuer: "UNIVERSITY OF VIRGINIA",
+                  date: "2025",
+                  link: "https://coursera.org/verify/specialization/DWO0CUQWP2T2",
+                  icon: "⚡",
+                  color: "from-orange-500 to-red-500"
+                },
+                {
+                  title: "Making Successful Decisions through the Strategy, Law & Ethics Model",
+                  issuer: "UNIVERSITY OF MICHIGAN",
+                  date: "2025",
+                  link: "https://coursera.org/verify/N57T8EFV77VT",
+                  icon: "⚡",
+                  color: "from-green-500 to-emerald-500"
+                },
+                {
+                  title: "Trademark Law",
+                  issuer: "UNIVERSITY OF PENNSYLVANIA",
+                  date: "2025",
+                  link: "coursera.org/verify/FF513204OS05",
+                  icon: "⚡",
+                  color: "from-purple-500 to-pink-500"
+                },
+                {
+                  title: "Innovation and emerging technology: Be disruptive",
+                  issuer: "MACQUARIE UNIVERSITY",
+                  date: "2025",
+                  link: "https://coursera.org/verify/92C8BOI9CPZP",
+                  icon: "⚡",
+                  color: "from-orange-500 to-red-500"
+                },
+                {
+                  title: "Getting Started with Data Visualization in R",
+                  issuer: "JOHNS HOPKINS UNIVERSITY",
+                  date: "2025",
+                  link: "https://coursera.org/verify/QA1J6RCQDO1H",
+                  icon: "⚡",
+                  color: "from-green-500 to-emerald-500"
                 }
               ].map((cert, index) => (
                 <div 
@@ -1184,23 +1277,23 @@ export default function Home() {
                   <span className="text-white text-2xl">☁️</span>
                 </div>
                 <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-2">
-                  Google Cloud Skill Badges
+                 IBM skill badge
                 </h4>
                 <p className="text-slate-600 dark:text-slate-300 mb-4">
-                  Earned 4 specialized skill badges in AI/ML, GenAI, and Data Analysis
+                 Earned the IBM Generative AI: Prompt Engineering badge, demonstrating skills in designing effective prompts to optimize AI-driven outcomes
                 </p>
                 <div className="flex justify-center gap-4 text-sm">
                   <span className="bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 px-3 py-1 rounded-full">
-                    AI/ML APIs
+                    Prompt Engineering
                   </span>
                   <span className="bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200 px-3 py-1 rounded-full">
-                    GenAI Development
+                   Generative AI
                   </span>
                   <span className="bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-200 px-3 py-1 rounded-full">
                     Prompt Design
                   </span>
                   <span className="bg-orange-100 text-orange-800 dark:bg-orange-900 dark:text-orange-200 px-3 py-1 rounded-full">
-                    BigQuery Analytics
+                    AI Tools
                   </span>
                 </div>
               </div>
@@ -1210,10 +1303,10 @@ export default function Home() {
           {/* Summary Stats */}
           <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
-              { number: "1", label: "Publications", icon: "📚" },
-              { number: "2", label: "Research Papers", icon: "🔬" },
-              { number: "3", label: "Awards & Recognition", icon: "🏆" },
-              { number: "5", label: "Certifications", icon: "📜" }
+              { number: "-", label: "Publications", icon: "📚" },
+              { number: "-", label: "Research Papers", icon: "🔬" },
+              { number: "2", label: "Awards & Recognition", icon: "🏆" },
+              { number: "21", label: "Certifications", icon: "📜" }
             ].map((stat, index) => (
               <div 
                 key={stat.label}
@@ -1240,8 +1333,7 @@ export default function Home() {
           </div>
           
           <p className="text-xl text-slate-600 dark:text-slate-300 mb-12 max-w-2xl mx-auto animate-slide-up">
-            Want to chat about AI/ML, collaborate on projects, or discuss opportunities? 
-            Feel free to reach out!
+            Leveraging data to solve real-world challenges ⚡ Open to collaborative opportunities in analytics and data intelligence 🚀
           </p>
           
           <div className="grid md:grid-cols-2 gap-8 mb-12">
@@ -1262,7 +1354,7 @@ export default function Home() {
           
           <div className="flex justify-center gap-6">
             <a
-              href="https://github.com/iamrealvinnu"
+              href="https://github.com/IamPravith"
           target="_blank"
           rel="noopener noreferrer"
               className="relative group flex flex-col items-center"
@@ -1273,7 +1365,7 @@ export default function Home() {
               </span>
         </a>
         <a
-              href="https://linkedin.com/in/guptavinayc"
+              href="https://linkedin.com/in/pravith-kumar-a8619a340"
           target="_blank"
           rel="noopener noreferrer"
               className="relative group flex flex-col items-center"
@@ -1291,10 +1383,10 @@ export default function Home() {
       <footer className="py-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-slate-900 to-slate-800 dark:bg-slate-950 text-center">
         <div className="max-w-7xl mx-auto">
           <p className="text-slate-400 mb-4">
-            © 2025 Vinay Chhotelal Gupta.
+            © 2025 Pravith Kumar J.
           </p>
           <p className="text-slate-500 text-sm">
-            AI/ML Developer | NLP & GenAI Enthusiast | Full-Stack ML Engineer
+            Data Analyst | Business Intelligence & Analytics Enthusiast | Turning Data into Actionable Insights
           </p>
         </div>
       </footer>

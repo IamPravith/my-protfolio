@@ -1,5 +1,5 @@
 
-# Vinay Gupta – AI/ML Portfolio
+# Pravith Kumar J – AI/ML Portfolio
 
 > A full-stack, interactive portfolio built with Next.js, TypeScript, and Tailwind CSS. Features advanced UI, a custom ChatBot, and modular architecture for easy expansion. Designed for professionals in AI/ML, software engineering, and data science.
 
@@ -34,7 +34,7 @@ This portfolio demonstrates:
 
 **Tech Stack:**
 - Next.js 13+ (App Directory)
-- TypeScript
+- TypeScript, C#
 - Tailwind CSS (with custom gradients)
 - React Icons
 - Markdown rendering (for ChatBot answers)
@@ -67,7 +67,7 @@ my-protfolio/
 	- Home, About, Skills, Experience, Projects, Publications, Contact
 	- Advanced scroll-triggered animations and section highlighting
 - **Custom ChatBot:**
-	- Floating widget, instant answers about profile, skills, projects, contact
+	- Floating widget, instant answers about profile, skills (TypeScript, C#, etc.), projects, contact
 	- Loads Q&A from `bot-qa.json`, supports markdown, links, lists
 - **SVG Graphics:**
 	- Custom icons for branding and sections
@@ -228,7 +228,7 @@ This portfolio demonstrates:
 ## Tech Stack
 
 - **Framework**: [Next.js](https://nextjs.org)
-- **Language**: TypeScript
+- **Languages**: TypeScript, C#
 - **Styling**: CSS (with PostCSS)
 - **Icons/Graphics**: SVG
 - **Package Manager**: npm, yarn, pnpm, or bun
