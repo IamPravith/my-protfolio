@@ -1,5 +1,9 @@
 
+<<<<<<< HEAD
 # Pravith Kumar J – AI/ML Portfolio
+=======
+# Pravith Kumar J – Portfolio
+>>>>>>> 8a58bdad42bf17f69a8fc6a191b7cfe3f5285ea0
 
 > A full-stack, interactive portfolio built with Next.js, TypeScript, and Tailwind CSS. Features advanced UI, a custom ChatBot, and modular architecture for easy expansion. Designed for professionals in AI/ML, software engineering, and data science.
 
