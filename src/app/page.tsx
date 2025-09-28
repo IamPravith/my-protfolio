@@ -1,6 +1,6 @@
 "use client";
 import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaArrowDown, FaRocket, FaBrain, FaCode, FaAward, FaGraduationCap } from "react-icons/fa";
-import { SiPython, SiPytorch, SiTypescript, SiDotnet, SiFlask, SiMysql, SiGit, SiDocker, SiKubernetes, SiAmazon, SiTableau, SiR, SiJupyter, SiPlotly } from "react-icons/si";
+import { SiPython, SiMysql, SiGit, SiTableau, SiR, SiJupyter, SiPlotly } from "react-icons/si";
 import { useEffect, useState } from "react";
 import ChatBot from './ChatBot';
 import { MdAccessTime, MdArticle, MdAttachMoney, MdAutorenew, MdChatBubble, MdGroups, MdLightbulb, MdOutlineHowToReg, MdOutlineSupervisorAccount, MdPsychology, MdSearch, MdStackedBarChart } from "react-icons/md";
