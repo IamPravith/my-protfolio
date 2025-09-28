@@ -1340,14 +1340,14 @@ export default function Home() {
             <div className="glass-card p-8 animate-slide-in-left">
               <FaEnvelope className="text-blue-600 text-3xl mx-auto mb-4" />
               <a href="pravithpravith88@gmail.com" className="text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
-                
+                "pravithpravith88@gmail.com"
               </a>
             </div>
             
             <div className="glass-card p-8 animate-slide-in-right">
               <FaPhone className="text-green-600 text-3xl mx-auto mb-4" />
               <a href="tel:+91-7539906947" className="text-slate-600 dark:text-slate-300 hover:text-green-600 dark:hover:text-green-400 transition-colors">
-                
+               "7539906947"
               </a>
             </div>
           </div>
