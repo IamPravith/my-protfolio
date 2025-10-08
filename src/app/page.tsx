@@ -854,7 +854,7 @@ export default function Home() {
             {[
               {
                 title: "IPL ANALYSIS DASHBOARD",
-                description: "Personalized nutrition platform with LLM-powered dietary insights, calorie tracking, and food recommendations.",
+                description: "Created an IPL Analysis Dashboard (2008–2025) using Excel and Power BI, showcasing team win/loss trends, Orange & Purple Cap winners, and leaders in sixes and fours across seasons.",
                 tags: ["Power Bi", "Excel", "Kaggle"],
                 tagColors: "bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200",
                 linkColor: "text-blue-600 dark:text-blue-400",
