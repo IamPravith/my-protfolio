@@ -1069,6 +1069,14 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {[
                 {
+                  title: "Python for Data Science",
+                  issuer: "NPTEL – IIT Madras",
+                  date: "2025",
+                  link: "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL25CS104S43210046909139344",
+                  icon: "🛢️",
+                  color: "from-blue-500 to-cyan-500"
+                },
+                {
                   title: "Database Management Systems (DBMS)",
                   issuer: "NPTEL – IIT Kharagpur",
                   date: "2025",
