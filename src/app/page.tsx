@@ -865,7 +865,7 @@ export default function Home() {
               },
               {
                 title: "NETFLIX ANALYSIS DASHBOARD",
-                description: "AI productivity platform with NLP-based auto-categorization of tasks and real-time analytics.",
+                description: "Developed a Netflix Content Analysis Dashboard using Power BI, showcasing insights on top genres, content ratings, country-wise distribution, and trends in movies and TV shows, with an interactive red-and-black theme reflecting Netflixs brand identity.",
                 tags: ["Power Bi", "Excel", "Kaggle"],
                 tagColors: "bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200",
                 linkColor: "text-green-600 dark:text-green-400",
@@ -1069,35 +1069,43 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {[
                 {
+                  title: "Oracle Analytics Cloud: Data Visualization",
+                  issuer: "Oracle",
+                  date: "2025",
+                  link: "https://drive.google.com/drive/folders/1HOUuZ-tJFcGpokyy9cd2iHkGiBx3g6k_",
+                  icon: "⚡",
+                  color: "from-orange-500 to-red-500"
+                },
+                {
                   title: "Python for Data Science",
                   issuer: "NPTEL – IIT Madras",
                   date: "2025",
                   link: "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL25CS104S43210046909139344",
-                  icon: "🛢️",
-                  color: "from-blue-500 to-cyan-500"
+                  icon: "⚡",
+                  color: "from-green-500 to-emerald-500"
                 },
                 {
                   title: "Database Management Systems (DBMS)",
                   issuer: "NPTEL – IIT Kharagpur",
                   date: "2025",
                   link: "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL25CS145S63210043609139344",
-                  icon: "🛢️",
-                  color: "from-blue-500 to-cyan-500"
+                  icon: "⚡",
+                  color: "from-purple-500 to-pink-500"
                 },
                 {
                   title: "Generative AI: Introduction and Applications",
                   issuer: "IBM",
                   date: "2025",
                   link: "https://coursera.org/verify/NPZ42PADU1B5",
-                  icon: "🤖",
-                  color: "from-blue-500 to-cyan-500"
+                  icon: "⚡",
+                  color: "from-orange-500 to-red-500"
                 },
                 {
                   title: "Generative AI: Prompt Engineering Basics",
                   issuer: "IBM",
                   date: "2025",
                   link: "https://coursera.org/verify/PPMRRX9SQOV5",
-                  icon: "🤖",
+                  icon: "⚡",
                   color: "from-green-500 to-emerald-500"
                 },
                 {
