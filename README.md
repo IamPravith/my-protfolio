@@ -1,11 +1,20 @@
 
-<<<<<<< HEAD
 # Pravith Kumar J – AI/ML Portfolio
-=======
-# Pravith Kumar J – Portfolio
->>>>>>> 8a58bdad42bf17f69a8fc6a191b7cfe3f5285ea0
 
 > A full-stack, interactive portfolio built with Next.js, TypeScript, and Tailwind CSS. Features advanced UI, a custom ChatBot, and modular architecture for easy expansion. Designed for professionals in AI/ML, software engineering, and data science.
+
+## Deployment
+
+This project is ready to deploy on Netlify or Vercel.
+
+### Netlify
+- Build command: `npm run build`
+- Publish directory: `.next`
+- A Netlify config file is included at [netlify.toml](netlify.toml)
+
+### Vercel
+- Build command: `npm run build`
+- Output: Next.js default build
 
 ---
 
@@ -38,7 +47,7 @@ This portfolio demonstrates:
 
 **Tech Stack:**
 - Next.js 13+ (App Directory)
-- TypeScript, C#
+- TypeScript
 - Tailwind CSS (with custom gradients)
 - React Icons
 - Markdown rendering (for ChatBot answers)
@@ -71,7 +80,7 @@ my-protfolio/
 	- Home, About, Skills, Experience, Projects, Publications, Contact
 	- Advanced scroll-triggered animations and section highlighting
 - **Custom ChatBot:**
-	- Floating widget, instant answers about profile, skills (TypeScript, C#, etc.), projects, contact
+	- Floating widget, instant answers about profile, skills, projects, contact
 	- Loads Q&A from `bot-qa.json`, supports markdown, links, lists
 - **SVG Graphics:**
 	- Custom icons for branding and sections
@@ -232,7 +241,7 @@ This portfolio demonstrates:
 ## Tech Stack
 
 - **Framework**: [Next.js](https://nextjs.org)
-- **Languages**: TypeScript, C#
+- **Language**: TypeScript
 - **Styling**: CSS (with PostCSS)
 - **Icons/Graphics**: SVG
 - **Package Manager**: npm, yarn, pnpm, or bun
